@@ -36,7 +36,7 @@ parse_dates = [
 @click.option('--pg-db', default='ny_taxi', help='PostgreSQL database name')
 @click.option('--year', default=2021, type=int, help='Year of the data')
 @click.option('--month', default=1, type=int, help='Month of the data')
-@click.option('--target-table', default='yellow_taxi_data_1', help='Target table name')
+@click.option('--target-table', default='yellow_taxi_data', help='Target table name')
 @click.option('--chunksize', default=100000, type=int, help='Chunk size for reading CSV')
 
 
